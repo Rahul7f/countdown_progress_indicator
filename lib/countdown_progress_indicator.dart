@@ -141,14 +141,14 @@ class _CountDownProgressIndicatorState extends State<CountDownProgressIndicator>
                     style: widget.timeTextStyle ??
                         Theme.of(context)
                             .textTheme
-                            .bodyText1!
+                            .bodySmall!
                             .copyWith(color: Colors.black, fontSize: 20, fontWeight: FontWeight.w600),
                   ),
                   if (widget.text != null)
                     Text(
                       widget.text!,
                       style: widget.labelTextStyle ??
-                          Theme.of(context).textTheme.bodyText1!.copyWith(
+                          Theme.of(context).textTheme.bodySmall!.copyWith(
                                 color: Colors.black,
                                 fontSize: 12,
                                 fontWeight: FontWeight.w600,
